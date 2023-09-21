@@ -1,0 +1,13 @@
+[
+	"00-test.js",
+	"01-data-types.js",
+	"02-number.js",
+	"03-string.js",
+	"04-object.js",
+	"05-arrays.js",
+	"06-functions.js",
+	"07-constructor-fn-inheritance.js",
+	"08-object-inheritance.js",
+	"09-data-structure-sets.js",
+	"10-data-structure-maps.js"
+]

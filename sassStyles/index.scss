@@ -1,0 +1,38 @@
+@import './partials/variables';
+* {
+	box-sizing: border-box;
+	padding: 0;
+}
+
+@mixin flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body {
+	background-color: $primary-color;
+}
+
+main {
+	@include flex-center;
+	.text-container {
+		color: $text-color;
+	}
+}
+
+header {
+	@include flex-center;
+	h3 {
+		font-weight: map-get($map: $font-weights, $key: 'regular');
+		color: $text-color-secondary;
+	}
+}
+
+footer {
+	@include flex-center();
+	color: $text-color-secondary;
+	p {
+		font-weight: fontWeight(bold);
+	}
+}

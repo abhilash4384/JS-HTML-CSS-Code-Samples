@@ -1,0 +1,50 @@
+@use 'sass:string';
+// below are variables
+$primary-color: #272727;
+$text-color: #ffffff;
+$text-color-secondary: #f1f1f1;
+// below are called maps similar to javascript array
+// to retrive its value we have to use map-get() method
+$font-weights: (
+	bold: 600,
+	medium: 400,
+	regular: 300,
+);
+
+//difference between function and mixins is functions must return a value where as mixins are reusable piece of css properties
+@function fontWeight($weight) {
+	@return map-get($font-weights, $weight);
+}
+
+$base-size: 1rem;
+$sizes: (
+	1: $base-size * 0.25,
+	2: $base-size * 0.5,
+	3: $base-size * 0.75,
+	4: $base-size * 1,
+	5: $base-size * 1.25,
+	6: $base-size * 1.5,
+	7: $base-size * 1.75,
+	8: $base-size * 2,
+	9: $base-size * 2.25,
+	10: $base-size * 2.5,
+	11: $base-size * 2.75,
+);
+
+@each $key, $value in $sizes {
+	.p-#{$key} {
+		padding: $value;
+	}
+}
+
+$sides: top, bottom, left, right;
+
+@each $key, $value in $sizes {
+	@each $side in $sides {
+		.m {
+			&-#{$side}-#{$key} {
+				margin-#{$side}: $value;
+			}
+		}
+	}
+}
