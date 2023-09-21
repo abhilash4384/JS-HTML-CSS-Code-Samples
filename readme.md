@@ -1,6 +1,6 @@
 # JavaScript | HTML | CSS Concepts, Interview Questions, and Weired JS Code Samples
 
-Welcome to the JavaScript Concepts, Interview Questions, and Unusual Code Samples repository! Here you'll find a collection of resources related to JavaScript, ranging from fundamental concepts to challenging interview questions and intriguing code snippets.
+Welcome to the JavaScript | HTML | CSS Concepts, Interview Questions, and Unusual Code Samples repository! Here you'll find a collection of resources related to JavaScript, ranging from fundamental concepts to challenging interview questions and intriguing code snippets. This represents a modest initiative aimed at assisting newcomers and beginners by offering them a selection of code samples.
 
 ---
 
