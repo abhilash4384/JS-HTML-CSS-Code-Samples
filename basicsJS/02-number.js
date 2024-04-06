@@ -40,7 +40,7 @@ console.log(
 console.log('Infinity === +Infinity =>', Infinity === +Infinity);
 //true
 console.log('Infinity === Infinity =>', Infinity === Infinity);
-//rue
+//true
 console.log('-Infinity === -Infinity =>', -Infinity === -Infinity);
 // true
 console.log('Infinity === -Infinity =>', Infinity === -Infinity);
@@ -84,7 +84,7 @@ console.log(
 //true
 
 console.log(
-	'BigInt(Number.MAX_SAFE_INTEGER + 1) ===  BigInt(Number.MAX_SAFE_INTEGER + 2) => ',
+	'BigInt(Number.MAX_SAFE_INTEGER + 1n) ===  BigInt(Number.MAX_SAFE_INTEGER + 2n) => ',
 	BigInt(Number.MAX_SAFE_INTEGER) + 1n === BigInt(Number.MAX_SAFE_INTEGER) + 2n
 );
 //false

@@ -10,10 +10,10 @@ function print() {
 
 	// let v = 5; // error: Cannot access 'v' before initialization
 
-	 v = 5;
+	v = 5;
 }
 print();
 
-// Output: undefined
+// Output: 10
 // Promise = 5
 // setTimeout = 5

@@ -32,7 +32,7 @@
 // 	/**
 // 	 *  This is a generator funtion calling this will not invoke the function,
 // 	 *  but return a iterator object
-// 	 *  Calling next method on this iterator object will return {value: yield value: done: false}
+// 	 *  Calling next method on this iterator object will return {value: yield-value, done: false}
 // 	 *  When done is true it means we have iterated over all the values of generator function
 // 	 **/
 // 	for (let i = 0; i < 5; i++) {

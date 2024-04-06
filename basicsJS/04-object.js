@@ -18,6 +18,7 @@ console.log(''.padStart(25, '-'), 'start of Object Assign', ''.padEnd(25, '-'));
 const merged = Object.assign(target, source);
 merged.d = 10;
 merged.c.c1 = 'updated';
+console.log('merged === target => ', merged === target);
 console.log('merged = >', merged);
 console.log('target =>', target);
 console.log('source =>', source);
@@ -205,7 +206,7 @@ const setProtoChildObj = {
 console.log('before setting prototype of obj', setProtoParentObj);
 
 /**
- * One important note here the below statemnt Object.setPrototypeOf
+ * One important note here the below statement Object.setPrototypeOf
  * will be executed before printing above console log
  * so both above & below console.log statment will provide the same result
  */

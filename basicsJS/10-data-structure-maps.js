@@ -32,6 +32,11 @@ for (let item of myMap.values()) {
 	console.log('for of only values myMap.values() = ', item);
 }
 
+/**
+ * Tip: To convert maps to object use Object.fromEntries() method,
+ * in the below example we are trying to convert map to object then
+ * converting it into json string
+ */
 console.log(
 	'JSON strigify = ',
 	JSON.stringify(Object.fromEntries(myMap), null, 2)
@@ -49,4 +54,3 @@ console.log(myWeakMap);
 
 // weakmap is similar but the key must not be a primitive data type
 // weakmap or weakset are a take garbage collected values out of scope
-//while json strigifying things if the key is an object then it is not properly converted to json object

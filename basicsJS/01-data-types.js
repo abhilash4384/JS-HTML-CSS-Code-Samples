@@ -1,7 +1,7 @@
 // Boolean
 
 const booleanValue = false;
-console.log(`Type of boolean = ${typeof strValue} value= ${strValue}`);
+console.log(`Type of boolean = ${typeof booleanValue} value= ${booleanValue}`);
 // Type of a = boolean value of a = false
 
 //null
