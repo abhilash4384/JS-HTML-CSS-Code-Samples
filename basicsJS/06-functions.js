@@ -1,5 +1,5 @@
 // /**
-//  * Declaring functions
+//  * below function is a Function statement
 //  */
 
 // function fun1() {
@@ -14,7 +14,7 @@
 // 	// named function
 // 	console.log('2nd way of declaring functions');
 // };
-// console.dir('fun2 => ', fun2);
+// console.dir('fun2 => ', fun2);x
 // fun2();
 
 // const fun3 = () => {
